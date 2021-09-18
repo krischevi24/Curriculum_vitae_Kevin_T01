@@ -23,4 +23,36 @@ html {
     padding: 0 20px 20px 20px;
     border: 1px solid black;
   }
+  
+  @media (max-width: 1980px){
+      body {
+        width: 75%;
+        margin: 0 auto;
+        background-color: f0c987;
+        padding: 0 20px 20px 20px;
+        border: 1px solid black;
+        font-size: 10px;
+      }
+      h1 {
+        margin: 0;
+        padding: 20px 0;
+        color: #8b1e3f;
+        font-size: 25px;
+        width: 80vw;
+        
+      }
+      
+      p, li {
+        font-size: 17px;
+        line-height: 2;
+        letter-spacing: 1px;
+        width: 75vmin;
+      }
+      .responsive-img {
+        width: 25%;
+        height: auto;
+      }
+  }
+
+  
 
